@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #3870CF;
+}
+
+.navbar-nav a {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    border-radius: 23px;
+}
+
+.banner-image {
+    background-image: url(../image/banner.png);
+    background-size: cover;
+}
+
+.banner-image .content {
+    padding: 227px 0 158px;
+}
+
+.banner-image .content .row {
+    color: white;
+    text-align: left;
+}
+
+.banner-image .content .row .btn {
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.keunggulan {
+    padding: 150px 0px 150px;
+}
+
+.keunggulan .text {
+    text-align: center;
+    color: #1C2661;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 0px 33px;
+}
+
+.keunggulan .row .col-4 {
+    text-align: center;
+}
+
+.keunggulan .row .col-4 img {
+    margin: 30px;
+    width: 20%;
+}
+
+.tentang .card {
+    background-image: url(../image/Rectangle2.png);
+    background-size: cover;
+    border: none;
+    margin: 0px 120px 100px;
+}
+
+.tentang .row {
+    margin: 20px;
+}
+
+.tentang .row .col img {
+    margin: 0px 36px 0px;
+}
+
+.tentang .row .col p {
+    text-align: justify;
+}
+
+.galeri {
+    background: linear-gradient(to right, #3A75D1, #54BBEC, #54BBEC); 
+    margin-top: 10em;
+}
+
+.galeri .row h1, h2 {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.galeri .row a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.galeri .row a:hover {
+    color: #1C2661;
+}
+
+.galeri .row {
+    margin: 30px;
+}
+
+.galeri .row .col-3 img {
+    width: 100%;
+}
+
+.galeri .card-box img:hover {
+    transform: scale(1.1);
+}
+
+.galeri .card {
+    background: none;
+}
+
+.artikel {
+    margin: 150px 0px 0px;
+}
+
+.artikel .card {
+    border: none;
+}
+
+.artikel .text {
+    text-align: center;
+    color: #1C2661;
+    font-family: 'Poppins', sans-serif;
+}
+
+.artikel .row .col img {
+    width: 100%;
+    margin: 0px 0px 30px;
+}
+
+.artikel .row .col h4, p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.artikel .row .badge {
+    background: linear-gradient(to right, #3A75D1, #54BBEC, #54BBEC); 
+    border-radius: 20px;
+    font-size: 20px;
+    position: relative;
+    top: -50px;
+    left: 73px;
+}
+
+.footer .row .mb-2 {
+    text-decoration: none;
+}
+
+/* media queries */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .section-padding {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+
+    .banner-image .content .row img {
+        /* width: 120%; */
+        /* display: flex;
+        margin-top: 150%;
+        margin-right: 500%; */
+        width: 130%;
+        margin: auto;
+    }
+
+    .keunggulan .row .col-4 img {
+        width: 70px;
+    }
+
+    .keunggulan .row div {
+        padding: 10px;
+        width: 500px;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .tentang .card {
+        margin: 0px 26px 0px;
+    }
+
+    .tentang .card-body .row .col img {
+        width: 319px;
+        align-items: center;
+    } 
+
+    .galeri .card-body .row .col-3 {
+        padding: 10px;
+        width: 500px;
+        height: 270px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .galeri .card-body .row .col-3 img {
+        width: 200px;
+    }
+
+    .artikel .card-body .row .col .badge {
+        left: 24px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1590px) {
+    .banner{
+        background-image: url();
+    }
+
+    .banner-img{
+        display: block;
+    }
+}
+
+
+
+

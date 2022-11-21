@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #3870CF;
+}
+
+.navbar-nav a {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    border-radius: 23px;
+}
+
+.banner-image .image img{
+    background-size: cover;
+    width: 100%;
+}
+
+.banner-image .depan img {
+    width: 85%;
+    position: absolute;
+    margin: 261px -1175px 50px;
+}
+
+.artikel .badge {
+    background: linear-gradient(to right, #3A75D1, #54BBEC, #54BBEC); 
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 20px
+}
+
+.artikel .card {
+    margin-top: 100px;
+    border: none;
+}
+
+.artikel .card h1 {
+    color: #1C2661;
+    font-family: 'Poppins', sans-serif;
+}
+
+.artikel .card h5 {
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+}
+
+.artikel .card p {
+    text-align: justify;
+    color: #3A3B41;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* media queries */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .section-padding {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+
+    .banner-image .depan img {
+        margin: 139px -624px 0px;
+    }
+
+}
+
+@media only screen and (min-width: 1590px) {
+    .banner{
+        background-image: url();
+    }
+
+    .banner-img{
+        display: block;
+    }
+}
