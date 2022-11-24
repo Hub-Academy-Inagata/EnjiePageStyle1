@@ -72,7 +72,7 @@
 }
 
 .tentang .row .col img {
-    margin: 0px 36px 0px;
+    margin: auto;
 }
 
 .tentang .row .col p {
@@ -184,12 +184,14 @@
     }
 
     .tentang .card {
-        margin: 0px 26px 0px;
+        margin: 0px -11px 0px;
     }
 
-    .tentang .card-body .row .col img {
-        width: 319px;
+    .tentang .row .col img {
+        width: 306px;
         align-items: center;
+        display: flex;
+        flex-direction: column;
     } 
 
     .galeri .card-body .row .col-3 {
