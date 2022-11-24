@@ -140,10 +140,6 @@
         margin: 0px 0px 578px;
     }
 
-    .gotong .card {
-        margin: 0px 0px 578px;
-    }
-
     .gotong .card-body .row div {
         padding: 50px;
         width: 500px;
@@ -162,7 +158,26 @@
         margin-bottom: 20px;
     }
 
+    .galeri .card .row {
+        margin: -267px 0px 201px;
+    }
 
+    .galeri .card .row div { 
+        padding: 81px;
+        width: 500px;
+        height: 406px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .galeri .card .row .col-4 img {
+        width: 361px;
+    }
+
+    .galeri .card .row .col-4 {
+        margin: 0px 0px 100px;
+    }
 }
 
 @media only screen and (min-width: 1590px) {
