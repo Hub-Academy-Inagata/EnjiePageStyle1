@@ -31,7 +31,7 @@
 }
 
 .banner-image img {
-    width: 90%;
+    width: 80%;
 }
 
 .banner-image .content {
@@ -73,6 +73,15 @@
     margin-right: 30px;
 }
 
+.kontak .row .col .btn {
+    background-color: #F3A84E;
+    color: white;
+}
+
+.kontak .row .col .btn:hover {
+    background-color: #1C2661;
+}
+
 /* media queries */
 @media only screen and (min-width: 768px) and (max-width: 991px){
     .section-padding {
@@ -89,6 +98,23 @@
     .banner-image .content h1 {
         margin: 34px 239px 0px;
         font-size: 1em;
+    }
+
+    .kontak .row {
+        margin-top: -71px;
+    }
+
+    .kontak .row div {
+        width: 500px;
+        display: flex;
+        align-items: center;
+        margin-top: 24px;
+        flex-direction: column;
+    }
+
+    .kontak .row .text {
+        text-align: center;
+        margin-top: 28px;
     }
 }
 
