@@ -140,6 +140,10 @@
         margin: 0px 0px 578px;
     }
 
+    .gotong .card {
+        margin: 0px 0px 578px;
+    }
+
     .gotong .card-body .row div {
         padding: 50px;
         width: 500px;
@@ -147,6 +151,15 @@
         display: flex;
         align-items: center;
         flex-direction: column;
+    }
+
+    .gotong .card .row .col img {
+        width: 100%;
+    }
+
+    .gotong .card .row .col h1, p {
+        margin: auto;
+        margin-bottom: 20px;
     }
 
 
